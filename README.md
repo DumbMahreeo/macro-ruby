@@ -64,7 +64,7 @@ If you want to use YARV (the official Ruby interpreter) instead of mruby
 simply enable the "yarv" or "full" feature (yarv and full are aliases).
 
 
-So in our cargo.toml we'll have
+So in our `Cargo.toml` we'll have
 ```toml
 [dependencies]
 macro-ruby = { version = current_version, features = ["yarv"] }
