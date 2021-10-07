@@ -1,6 +1,6 @@
 [package]
 name = "macro-ruby"
-version = "1.1.0"
+version = "1.1.1"
 edition = "2018"
 description = "Execute ruby code at compile time trough mruby"
 repository = "https://github.com/DumbMahreeo/macro-ruby"
@@ -10,3 +10,7 @@ license = "MIT"
 proc-macro = true
 
 [dependencies]
+
+[features]
+yarv = []
+full = []
