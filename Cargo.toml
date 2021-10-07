@@ -1,6 +1,6 @@
 [package]
 name = "macro-ruby"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 description = "Execute ruby code at compile time trough mruby"
 repository = "https://github.com/DumbMahreeo/macro-ruby"
