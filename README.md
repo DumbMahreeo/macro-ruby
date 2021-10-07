@@ -44,7 +44,7 @@ Have `mruby` in your `PATH`.
     use macro_ruby::ruby_code_ast;
 
     // ruby_code_ast! generates real rust code based on what has been printed
-    ruby_code_to!(r#"
+    ruby_code_ast!(r#"
         puts "let a = 1;"
     "#)
 
