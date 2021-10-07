@@ -58,3 +58,20 @@ If you want to execute ruby code from external files you can use the `file` vari
 | `ruby_code_str!` | `ruby_file_str!` |
 | `ruby_code_to!` | `ruby_file_to!` |
 | `ruby_code_ast!` | `ruby_file_ast!` |
+
+# Use YARV instead of mruby
+If you want to use YARV (the official Ruby interpreter) instead of mruby
+simply enable the "yarv" or "full" feature (yarv and full are aliases).
+
+
+So in our cargo.toml we'll have
+```toml
+[dependencies]
+macro-ruby = { version = current_version, features = ["yarv"] }
+```
+or
+```toml
+[dependencies]
+macro-ruby = { version = current_version, features = ["yarv"] }
+```
+(where current_version is the actual current version of macro-ruby)
