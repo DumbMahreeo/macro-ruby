@@ -50,3 +50,11 @@ Have `mruby` in your `PATH`.
 
     assert_eq!(a, 1);
 ```
+
+If you want to execute ruby code from external files you can use the `file` variant of our macros
+
+| Str version | File version |
+| --- | --- |
+| `ruby_code_str!` | `ruby_file_str!` |
+| `ruby_code_to!` | `ruby_file_to!` |
+| `ruby_code_ast!` | `ruby_file_ast!` |
