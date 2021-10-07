@@ -72,6 +72,6 @@ macro-ruby = { version = current_version, features = ["yarv"] }
 or
 ```toml
 [dependencies]
-macro-ruby = { version = current_version, features = ["yarv"] }
+macro-ruby = { version = current_version, features = ["full"] }
 ```
 (where current_version is the actual current version of macro-ruby)
